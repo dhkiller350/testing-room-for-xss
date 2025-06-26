@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XSS Practice Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My XSS Practice Page</h1>
+
+    <form id="xssForm">
+        <label for="userInput">Enter something:</label><br>
+        <input type="text" id="userInput" name="userInput" placeholder="Type here...">
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Output:</h2>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
